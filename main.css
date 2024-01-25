@@ -1,65 +1,74 @@
-.container{
-    max-width: 1200px;
+.container {
+    max-width: 1240px;
     width: 100%;
     margin: 0 auto;
     padding: 0 10px;
 }
-.header-hero-back{
+
+.header-hero-back {
     background-image: url(./assets/images/header-hero-background.svg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
 }
-.header{
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header__img{
+
+.header__img {
     width: 150px;
     height: 125px;
 }
-.header__input{
+
+.header__input {
     width: 300px;
     padding: 6px 10px;
     border-radius: 29.089px;
     border: 1.939px solid #FFB800;
     background: #FFF;
 }
-.header__ul{
+
+.header__ul {
     width: 300px;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header__ul--li-a{
+
+.header__ul--li-a {
     text-decoration: none;
     color: #FFF;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-.header__img--icon-cart{
+
+.header__img--icon-cart {
     width: 27px;
     height: 27px;
 }
-.header__button{
+
+.header__button {
     color: #FFF;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-border-radius: 32.938px;
-border: 1px solid #FFF;
-background: rgba(255, 255, 255, 0.00);
-padding: 10px 30px;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 32.938px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.00);
+    padding: 10px 30px;
 }
-.header__button--active{
+
+.header__button--active {
     color: #394;
     font-family: Lato;
     font-size: 18px;
@@ -68,79 +77,276 @@ padding: 10px 30px;
     line-height: normal;
     border-radius: 32.938px;
     border: none;
-    padding: 11px 30px;  
+    padding: 11px 30px;
 }
-.hero{
+
+.hero {
     display: flex;
     justify-content: space-between;
 }
-.hero__p{
+
+.hero__p {
     color: #FFF;
-font-family: Lato;
-font-size: 30.1px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 4.5px;
-margin: 150px 10px;
+    font-family: Lato;
+    font-size: 30.1px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4.5px;
+    margin: 150px 10px;
 }
-.hero__img{
+
+.hero__img {
     width: 770px;
     height: 600px;
     margin-top: 30px;
 }
-.about{
+
+.about {
     background-image: url(./assets/images/about-back.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 900px;
     width: 900px;
 }
-.about__h2{
+
+.about__h2 {
     color: #000;
-font-family: Lato;
-font-size: 30px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-text-align: center;
-margin-left: 400px;
-padding-top: 100px;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    margin-left: 400px;
+    padding-top: 100px;
 }
-.about__right{
+
+.about__right {
     display: flex;
     flex-direction: column;
     align-items: end;
     padding-left: 1200px;
 }
-.about__right__box{
+
+.about__right__box {
     display: flex;
     align-items: center;
-width: 400px;
-padding: 0px 10px;
-background: #FFF;
-box-shadow: 0px 9.219px 9.219px 0px rgba(0, 0, 0, 0.17);
-margin-top: 10px;
+    width: 400px;
+    padding: 0px 10px;
+    background: #FFF;
+    box-shadow: 0px 9.219px 9.219px 0px rgba(0, 0, 0, 0.17);
+    margin-top: 10px;
 }
-.about__right__box--ellipse{
+
+.about__right__box--ellipse {
     width: 10px;
     height: 10px;
     border-radius: 50%;
     background-color: #394;
     margin-right: 20px;
 }
-.about__right__box--ellipse1{
+
+.about__right__box--ellipse1 {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color:#FFB800;
-    margin-right: 20px   
+    background-color: #FFB800;
+    margin-right: 20px
 }
-.about__right__box--p{
+
+.about__right__box--p {
     color: rgba(0, 0, 0, 0.75);
-font-family: Lato;
-font-size: 30px;
-font-style: normal;
-font-weight: 500;
-line-height: 50px;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.sales__top {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sales__top--hr {
+    width: 300px;
+    height: 1.5px;
+    background: rgba(0, 0, 0, 0.26);
+    border: none;
+}
+
+.sales__top--h2 {
+    color: #000;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.sales__card--box {
+    width: 350px;
+    height: 120px;
+    border-radius: 24.499px;
+    background: #1E1A1A;
+    box-shadow: 0px 7.711px 19.278px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sales__card--box-h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
+.sales__card {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sales__bottom__card--box {
+    width: 190px;
+    height: 220px;
+    border-radius: 20px;
+    border: 1px solid #289402;
+}
+
+.sales__bottom__card--box:nth-child(1) {
+    background-image: url(./assets/images/sales1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sales__bottom__card--box-top {
+    margin-left: 150px;
+    text-align: end;
+    width: 40px;
+    background-color: red;
+}
+
+.sales__bottom__card--box-top-p {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18.217px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sales__bottom__card--box-center {
+    background-color: white;
+    padding: 0;
+    margin-top: 135px;
+    display: flex;
+    align-items: center;
+}
+
+.sales__bottom__card--box-center-h3 {
+    color: #000;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 10px;
+    /* margin-top: 0;
+padding-top: 0px; */
+    transform: translateY(-12px);
+}
+
+.sales__bottom__card--box-center-del {
+    color: rgba(0, 0, 0, 0.50);
+    /* padding-top: 0px;
+    margin-top: 0; */
+    font-family: Lato;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 10px;
+    transform: translateY(-12px);
+}
+
+.sales__bottom__card--box-bottom {
+    margin: 0;
+    padding: 0 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    transform: translateY(-35px);
+}
+
+.sales__bottom__card--box-bottom-p {
+    color: rgba(0, 0, 0, 0.75);
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sales__bottom__card--box-bottom-button {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 5px;
+    border: 1.301px solid #FFB800;
+    background: #FFB800;
+}
+
+.sales__bottom__card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    margin-top: 10px;
+    background-color: rgba(43, 234, 12, 0.07);;
+}
+
+.sales__bottom__card--box:nth-child(2) {
+    background-image: url(./assets/images/sales2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sales__bottom__card--box:nth-child(3) {
+    background-image: url(./assets/images/sales3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sales__bottom__card--box:nth-child(4) {
+    background-image: url(./assets/images/sales4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sales__bottom__card--box:nth-child(5) {
+    background-image: url(./assets/images/sales5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sales__bottom__card--box:nth-child(6) {
+    background-image: url(./assets/images/sales6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
