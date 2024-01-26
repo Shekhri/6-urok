@@ -350,3 +350,290 @@ padding-top: 0px; */
     background-repeat: no-repeat;
     background-size: cover;
 }
+.sales__button{
+    color: #2BC645;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border-radius: 40px;
+border:2px solid #394;
+background: #FFF;
+padding: 10px 20px;
+margin-left: 1050px;
+margin-top: 30px;
+}
+.category__top{
+    display: flex;
+    justify-content: space-between;
+}
+.category__h2{
+    color: #000;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.category__h3{
+    color: #000;
+text-align: center;
+font-family: Lato;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 80px;
+}
+.category__img{
+    width: 600px;
+    height: 400px;
+}
+.category__card--box{
+width: 150px;
+height: 150px;
+border-radius: 20px;
+background: #FFF;
+box-shadow: 0px 9.749px 19.498px 0px rgba(0, 0, 0, 0.15);
+padding: 20px;
+}
+.category__card--box-p{
+    color: #333;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+}
+.category__card--box:nth-child(1) .category__card--box-top {
+    background-image: url(./assets/images/caregory-box1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110px;
+    margin-top: 10px;
+    width: 110;
+border-radius: 20px;
+}
+.category__card--box:nth-child(2) .category__card--box-top {
+    background-image: url(./assets/images/category-box2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110px;
+    margin-top: 10px;
+    width: 110;
+border-radius: 20px;
+}
+.category__card--box:nth-child(3) .category__card--box-top {
+    background-image: url(./assets/images/category-box3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110px;
+    margin-top: 10px;
+    width: 110;
+border-radius: 20px;
+}
+.category__card--box:nth-child(4) .category__card--box-top {
+    background-image: url(./assets/images/category-box4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110px;
+    margin-top: 10px;
+    width: 110;
+border-radius: 20px;
+}
+.category__card--box:nth-child(5) .category__card--box-top {
+    background-image: url(./assets/images/category-box5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110px;
+    margin-top: 10px;
+    width: 110;
+border-radius: 20px;
+}
+
+.category__card{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.grocery__h2{
+    color: #000;
+font-family: Lato;
+font-size:30px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; 
+letter-spacing: -0.896px;
+text-align: center;
+margin-top: 50px;
+}
+.grocery__card--box{
+    width: 200px;
+    height: 300px;
+    border-radius:30px;
+box-shadow: 0px 9.749px 19.498px 0px rgba(0, 0, 0, 0.15);
+background: #FFF;
+padding: 5px;
+margin-top: 20px;
+}
+.grocery__card--box-h3{
+    color: #000;
+font-family: Lato;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+}
+.grocery__card--box-p{
+    color: rgba(0, 0, 0, 0.62);
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+}
+.grocery__card--box-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.grocery__card--box-bottom-img{
+    width: 70px;
+    height: 30px;
+}
+.grocery__card--box-bottom-button-img{
+    will-change: 12px;
+    height: 10px;
+}
+.grocery__card--box-bottom-button{
+    color: #FFF;
+font-family: Lato;
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 130px;
+height: 30px;
+background-color: #289402;
+border-radius: 5px;
+border: none;
+}
+.grocery__card{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.grocery__button{
+    color: #2BC645;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 40px;
+    border:2px solid #394;
+    background: #FFF;
+    padding: 10px 20px;
+    margin-left: 500px;
+    margin-top: 80px;   
+}
+.grocery__card--box:nth-child(1) h3 ::before{
+content: "";
+display: block;
+background-image: url(./assets/images/1.png);
+width: 50px;
+height: 50px;
+}
+.app__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.app__right--h2{
+    color: rgba(0, 0, 0, 0.90);
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: 50px;
+}
+.app__right--p{
+    color: rgba(0, 0, 0, 0.90);
+font-family: Lato;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; 
+}
+.app__bottom--box{
+    width: 250px;
+    height: 100px;
+    background-color: #000;
+    border-radius: 20px;
+    padding: 10px;
+}
+.app__bottom--box{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 30px;
+}
+.app__bottom--box-p{
+    color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px;
+}
+.app__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;margin-top: 80px;
+}
+.futter{
+   width: 100%;
+   background-color: #000;
+   padding: 30px 0px;
+   margin-top: 100px;
+}
+.futter__center{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.futter__center--ul{
+    list-style-type: none;
+}
+.futter__center--ul-li{
+    color: #FFF;
+font-family: Lato;
+font-size:20px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px;
+}
+.futter__center--p{
+    color: #FFF;
+font-family: Lato;
+font-size:20px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+}
+.futter__p{
+    color: #FFF;
+    font-family: Lato;
+    font-size:20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    margin: 10px;   
+}
